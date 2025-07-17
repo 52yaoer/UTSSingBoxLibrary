@@ -24,7 +24,7 @@ Library framework.
   s.homepage         = 'https://github.com/52yaoer/UTSSingBoxLibrary'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '176142998' => '176142998@qq.com' }
-  s.source           = { :http => 'https://github.com/52yaoer/UTSSingBoxLibrary/releases/download/1.0.0/Libraryframework.zip' }
+  s.source           = { :http => 'https://github.com/52yaoer/UTSSingBoxLibrary/releases/download/1.0.1/Libraryframework.zip' }
 
   s.ios.deployment_target = '15.0'
 
