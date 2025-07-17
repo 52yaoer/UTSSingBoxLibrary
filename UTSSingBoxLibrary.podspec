@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
       ss.vendored_frameworks = '*.framework'
       ss.libraries  = "resolv"
   end
-  s.dependency "CSQLite", ">= 1.0.0"
+  s.dependency "GRDB.swift", ">= 6.24.1"
 
   s.user_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
