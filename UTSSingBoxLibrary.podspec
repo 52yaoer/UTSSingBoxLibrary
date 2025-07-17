@@ -28,7 +28,7 @@ Library framework.
 
   s.ios.deployment_target = '15.0'
 
-  s.source_files = '*.h'
+  #s.source_files = '*.h'
   
   s.subspec 'Core' do |ss|
       ss.vendored_frameworks = '*.framework'
