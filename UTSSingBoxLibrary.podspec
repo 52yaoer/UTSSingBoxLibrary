@@ -32,7 +32,7 @@ Library framework.
   
   s.subspec 'Core' do |ss|
       ss.vendored_frameworks = '*.framework'
-      ss.libraries  = "libresolv.tbd"
+      ss.libraries  = "resolv.tbd"
   end
 
 
