@@ -25,7 +25,6 @@ Library framework.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '176142998' => '176142998@qq.com' }
   s.source           = { :http => 'https://github.com/52yaoer/UTSSingBoxLibrary/releases/download/1.0.0/Libraryframework.zip' }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '15.0'
 
@@ -33,14 +32,10 @@ Library framework.
   
   s.subspec 'Core' do |ss|
       ss.vendored_frameworks = '*.framework'
-      #ss.frameworks  = "libresolv.tbd"
+      ss.libraries  = "libresolv.tbd"
   end
 
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  
   s.user_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
   }
