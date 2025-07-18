@@ -1,2 +1,2 @@
 #! /bin/bash
-pod trunk push UTSSingBoxLibrary.podspec --allow-warnings
+pod trunk push UTSSingBoxLibrary.podspec --allow-warnings --verbose

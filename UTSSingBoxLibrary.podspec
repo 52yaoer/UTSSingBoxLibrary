@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UTSSingBoxLibrary'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'framework'
 
   s.description      = <<-DESC
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/52yaoer/UTSSingBoxLibrary'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '176142998' => '176142998@qq.com' }
-  s.source           = { :http => 'https://github.com/52yaoer/UTSSingBoxLibrary/releases/download/1.0.3/Libraryframework.zip' }
+  s.source           = { :http => 'https://github.com/52yaoer/UTSSingBoxLibrary/releases/download/1.0.4/Libraryframework.zip' }
 
   s.ios.deployment_target = '15.0'
 
